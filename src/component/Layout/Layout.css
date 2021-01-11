@@ -1,0 +1,10 @@
+
+.app-layout{
+    
+    padding: 90px 0 ;
+    background-image: linear-gradient(to bottom, #77848e, #9598a4, #b3acb7, #cfc2c9, #e8dadb);
+    display: flex;
+}
+.app-main{
+    flex: 1;
+}

@@ -1,0 +1,10 @@
+.app-header{
+    position: fixed;
+    height: 64px;
+    background: blue;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.input-app{
+    margin: 20px auto 0;
+    display: block;
+    width:65%;
+    background: #FBFBFB;
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+    border-color: transparent;
+    padding-left:2.5%;
+    font-size: 20px;
+}
+.input-app::placeholder{
+    color: #517F8E;
+    font-size: 20px;
+}

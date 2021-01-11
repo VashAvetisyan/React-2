@@ -1,0 +1,26 @@
+#form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#app-form{
+    background-image: linear-gradient(to bottom, #bbc0c5, #c8c9ce, #d6d1d6, #e1dbdd, #ebe5e4);
+    width: 50%;
+    margin: 0 auto;
+    border: 4px #F8FAFD solid;
+    border-radius: 10px;
+    text-align: center;
+}
+#app-porfile{
+    width: 25%;
+    margin-top: 15px;
+    margin-bottom:10px;
+}
+.error-text{
+    width: 65%;
+    margin: 4px auto 0;
+    text-align: left;
+    font-size: 18px;
+    color: red;
+}

@@ -1,6 +1,4 @@
-import React from 'react'
-
-export const ValidateName = (val) => {
+export const validateName = (val) => {
     if (val.Name.length < 8) {
         return {
             errorName:'minimum 8 letters!',
@@ -18,8 +16,7 @@ export const ValidateName = (val) => {
     }
 }
 
-
-export const ValidatePassword = (val) => {
+export const validatePassword = (val) => {
     if (val.Password.length < 6) {
         return {
             errorPassword:'minimum 6 letters!',
@@ -36,3 +33,4 @@ export const ValidatePassword = (val) => {
         }
     }
 }
+

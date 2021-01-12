@@ -12,6 +12,7 @@ function App() {
       <Header />
       <Layout>
           <Form />
+          
       </Layout>
       <Footer />
     </div>

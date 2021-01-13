@@ -4,6 +4,7 @@ import Footer from './containers/Footer/Footer';
 
 import Form from './containers/Form/Form';
 import Header from './containers/Header/Header';
+import Products from './containers/Products/Products';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
       <Header />
       <Layout>
           <Form />
-          
+          <Products />
       </Layout>
       <Footer />
     </div>

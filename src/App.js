@@ -5,16 +5,15 @@ import Footer from './containers/Footer/Footer';
 
 import Header from './containers/Header/Header';
 import Products from './containers/Products/Products';
-
+  
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Layout>
-          <Form />
-          <Products />
           <Auth />
+          <Products />
       </Layout>
       <Footer />
     </div>

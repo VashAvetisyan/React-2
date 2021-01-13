@@ -1,0 +1,21 @@
+.product-blok{
+    padding: 22px;
+    border: 3px #000 solid;
+    text-align: center;
+}
+.product-blok h1{
+    font-size: 36px;
+    color: #333;
+
+}
+.product-blok h2{
+    font-size: 20px;
+    padding-top: 10px;
+    color: #333;
+}
+
+.product-blok p{
+    font-size: 16px;
+    padding-top: 10px;
+    color: rgb(90, 22, 22);
+}

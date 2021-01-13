@@ -4,7 +4,8 @@ import Auth from './containers/Auth/Auth';
 import Footer from './containers/Footer/Footer';
 
 import Header from './containers/Header/Header';
-
+import Products from './containers/Products/Products';
+  
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Layout>
           <Auth />
+          <Products />
       </Layout>
       <Footer />
     </div>

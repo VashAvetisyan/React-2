@@ -2,8 +2,8 @@ import React from 'react'
 
 import './Title.css'
 
-function Title(props){
-    return <p id="app-title">{props.children}</p>
+function Title({children, onClick}){
+    return <p id="app-title" onClick={onClick}>{children}</p>
 }
 
 export default Title

@@ -1,8 +1,8 @@
 import './App.css';
 import Layout from './component/Layout/Layout';
+import Auth from './containers/Auth/Auth';
 import Footer from './containers/Footer/Footer';
 
-import Form from './containers/Form/Form';
 import Header from './containers/Header/Header';
 
 
@@ -11,8 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Layout>
-          <Form />
-          
+          <Auth />
       </Layout>
       <Footer />
     </div>

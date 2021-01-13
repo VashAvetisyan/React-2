@@ -1,18 +1,17 @@
 import React, {Component } from 'react'
 
-import Input from '../../component/Input/Input'
-import Title from '../../component/Title/Title'
-import Button from '../../component/Button/Button'
+import Input from '../../../component/Input/Input'
+import Button from '../../../component/Button/Button'
 
-import profile from '../../assets/profile.png'
+import profile from '../../../assets/profile.png'
 
-import './Form.css'
+import './Login.css'
 
-import {validateName} from '../../utils/validate'
-import {validatePassword} from '../../utils/validate'
+import {validateName} from '../../../utils/validate'
+import {validatePassword} from '../../../utils/validate'
 
 
-class Form extends Component{
+class Login extends Component{
     state = {
         userName: '',
         userPassword:'',
@@ -67,22 +66,21 @@ class Form extends Component{
             )
         }
     } 
-
+        
     render(){
         return(
             <div id ="form-main">
-            <form id="app-form">
-                <Title> LOGIN </Title>
-                <img src={profile} id='app-porfile' alt='title'/>
-                <Input type='text' placeholder='username' onChange={this.onChangeName} value={this.userName}/>
-                <p className='error-text'>{this.state.errorTextName}</p>
-                <Input type='password' placeholder='password' onChange={this.onChangePassword} value={this.userPassword}/>
-                <p className='error-text'>{this.state.errorTextPassword}</p>
-                <Button onClick={this.LoginBtn}>LOGIN</Button>
-            </form>
-        </div>
+                <form id="app-form">
+                    <img src={profile} id='app-porfile' alt='title'/>
+                    <Input type='text' placeholder='username' onChange={this.onChangeName} value={this.userName}/>
+                    <p className='error-text'>{this.state.errorTextName}</p>
+                    <Input type='password' placeholder='password' onChange={this.onChangePassword} value={this.userPassword}/>
+                    <p className='error-text'>{this.state.errorTextPassword}</p>
+                    <Button onClick={this.LoginBtn}>Login</Button>
+                </form>
+            </div>
         )
     }
 }
 
-export default Form 
+export default Login 
